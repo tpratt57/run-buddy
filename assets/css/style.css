@@ -121,21 +121,10 @@ section{
     padding: 10px 20px;
     font-size: 16px;
 }
-/*******************************************************************************************************************************************************************************/
+/**************************** Styling What We Do Section ****************************/
 .intro 
 {
     text-align: center;
-}
-
-.intro h2
-{
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
-    border-color: #fce138;
-    display: inline-block;
 }
 
 .intro p
@@ -145,4 +134,56 @@ section{
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+}
+/**************************** Styling What You Do Section ****************************/
+.steps
+{
+    text-align: center;
+    background: #fce138;
+}
+
+/**************************** Styling Rules #1 ****************************/
+.section-title
+{
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    border-color: #39a6b2;
+    display: inline-block;
+}
+
+.primary-border
+{
+    border-color: #fce138;
+}
+
+.secondary-border
+{
+    border-color: #39a6b2;
+}
+/**************************** More Styling ****************************/
+.steps div
+{
+    margin-bottom: 80px;
+}
+
+.steps img 
+{
+    width: 15%;
+    margin: 10px 0;
+}
+
+.steps h3
+{
+    color: #024e76;
+    font-size: 46px;
+    margin-top: 10px;
+}
+
+.steps p
+{
+    color: #39a6b2;
+    font-size: 23px;
 }
