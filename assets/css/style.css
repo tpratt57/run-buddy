@@ -150,10 +150,7 @@ section{
     font-size: 16px;
 }
 /**************************** Styling What We Do Section ****************************/
-.intro 
-{
-    text-align: center;
-}
+
 
 .intro p
 {
@@ -162,11 +159,12 @@ section{
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    text-align: center;
 }
 /**************************** Styling What You Do Section ****************************/
 .steps
 {
-    text-align: center;
+   
     background: #fce138;
 }
 
@@ -175,11 +173,13 @@ section{
 {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%; 
     border-bottom: 3px solid;
     border-color: #39a6b2;
-    display: inline-block;
+   
 }
 
 .primary-border
@@ -221,10 +221,6 @@ section{
     font-size: 38px;
 }
 /**************************** Trainers Styling ****************************/
-.trainers
-{
-    text-align: center;
-}
 
 .trainer
 {
@@ -279,7 +275,7 @@ section{
 /**************************** Reach Out Styling ****************************/
 .contact
 {
-    text-align: center;
+   
     background: #024e76;
 }
 
@@ -321,4 +317,9 @@ section{
 .contact-info a
 {
     color: #fce138;
+}
+/**************************** Flex-Row Styling ****************************/
+.flex-row
+{
+    display: flex;
 }
