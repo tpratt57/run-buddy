@@ -79,8 +79,7 @@ section{
 
        }
 /**************************** Styling Hero Section ****************************/
-.hero 
-{
+.hero {
     background-image: url('../images/hero-bg.jpg');
     background-size: cover;
     background-position: center;
@@ -88,68 +87,60 @@ section{
     justify-content: center;
     flex-wrap: wrap;
   }
-
-
-.hero-cta
-{
+  
+  .hero-cta {
     width: 35%;
     text-align: right;
     margin: 3.5%;
     color: #fff;
     font-size: 18px;
     line-height: 1.3;
-}
-
-.hero-cta h2
-{
+  }
+  
+  .hero-cta h2 {
     font-style: italic;
     font-size: 55px;
     color: #fce138;
-}
-
-.hero-form
-{
- border: solid 3px #024e76;
- background-color: #fce138;
- padding: 20px;
- color: #024e76;
- width: 40%;
- margin: 3.5%;
-}  
-.hero-form h3
-{
- font-size: 24px;
- margin: 0;
-}
-.hero-form p
-{
- margin: 5PX 0 15PX 0;
-}
-
-.form-input
-{
+  }
+  
+  .hero-form {
+    border: 3px solid #024e76;
+    background-color: #fce138;
+    padding: 20px;
+    color: #024e76;
+    width: 40%;
+    margin: 3.5%;
+  }
+  
+  .hero-form h3 {
+    font-size: 24px;
+    margin: 0;
+  }
+  .hero-form p {
+    margin: 5px 0 15px 0;
+  }
+  
+  .form-input {
     border: 1px solid #024e76;
     display: block;
     padding: 7px 15px;
     font-size: 16px;
     color: #024e76;
     width: 100%;
-    margin-bottom: 15px;
-}
-
-.hero-form label
-{
+    margin-bottom: 15px; 
+  }
+  
+  .hero-form label {
     margin: 0 5px;
-}
-
-.hero-form button
-{  
+  }
+  
+  .hero-form button {
     color: #fce138;
     background-color: #024e76;
     border: none;
     padding: 10px 20px;
     font-size: 16px;
-}
+  } 
 /**************************** Styling What We Do Section ****************************/
 
 /**************************** Styling What You Do Section ****************************/
@@ -296,6 +287,19 @@ section{
     font-size: 17px;
 }    
 /**************************** Reach Out Styling ****************************/
+.contact-info
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-info > *
+{
+    flex: 1;
+    margin: 15px;
+}
+
 .contact {
     background: #024e76;
   }
@@ -307,17 +311,12 @@ section{
 
 .contact-info iframe
 {
-    width: 400px;
     height: 400px;
 }
 
 .contact-info div
 {
-    width: 410px;
-    display: inline-block;
-    vertical-align: top;
-    text-align: left;
-    margin: 30px 0 0 60px;
+
     color: white;
 }
 
@@ -331,13 +330,35 @@ section{
 {
     margin: 20px 0;
     line-height: 1.5;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
 }
 
 .contact-info a
 {
     color: #fce138;
+}
+
+.contact-form input, .contact-form textarea
+{
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.contact-form button
+{
+    width: 100%;
+    border: none;
+    background: #fce138;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
 }
 /**************************** Flex-Row Styling ****************************/
 .flex-row
